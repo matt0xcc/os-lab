@@ -1,5 +1,6 @@
 #!/bin/bash
 
+name=matt
 version=ics2020
 
 function init() {
