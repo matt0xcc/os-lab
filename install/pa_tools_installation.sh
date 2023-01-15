@@ -12,3 +12,7 @@ apt-get install vim             -y   # VIM editor
 # basic tools
 apt-get install cscope          -y
 apt-get install ctags-universal -y
+
+# vim plugs management tool
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
